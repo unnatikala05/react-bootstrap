@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { elementType } from 'prop-types-extra';
 import { useUncontrolled } from 'uncontrollable';
 import useEventCallback from '@restart/hooks/useEventCallback';
-
+import React from 'react-redux';
 import createWithBsPrefix from './utils/createWithBsPrefix';
 import divWithClassName from './utils/divWithClassName';
 import { useBootstrapPrefix } from './ThemeProvider';
